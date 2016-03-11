@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comments!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/comments.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="top">
+        <h1>Words of Wisdom</h1>
+        <br/>
+        <form id="commentForm" action="">
+          <label for="name">Name: </label><input type="text" id="Name" placeholder="Name"><br>
+          <br/>
+          <label for="comment">Comment: </label><input type="text" id="Comment" placeholder="Comment"><br>
+        </form>
+        <br/>
+        <button id="serialize" class="w3-btn w3-blue w3-text-shadow">Serialize form values</button>
+        <button id="getThem" class="w3-btn w3-blue w3-text-shadow">Get Comments</button>
+      </div>
+      <div id="bottom">
+        <br/>
+        <div id="json"></div>
+        <div id="done"></div>
+        <div id="comments"></div>
+      </div>
+    </div>
+  </body>
+</html>
